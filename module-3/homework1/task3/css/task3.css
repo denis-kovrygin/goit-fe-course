@@ -1,0 +1,40 @@
+body {
+    font-family: playfair display, sans-serif;
+    max-width: 1200px;
+    margin: 24px auto;
+}
+
+.wraper {
+    width: 960px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container1 {
+    width: 470px;
+    text-align: justify;
+    margin: 0 auto;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 10px;
+}
+
+.container2 {
+    width: 470px;
+    text-align: justify;
+    margin: 0 auto;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 20px;
+    border: 10px;
+}
+
+.lifestyle {
+    text-transform: uppercase;
+    text-align: left;
+}
+
+img {
+    width: 100%;
+}

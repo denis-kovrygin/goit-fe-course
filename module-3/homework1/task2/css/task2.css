@@ -1,0 +1,19 @@
+body {
+    font-family: playfair display, sans-serif;
+    margin: 24px auto;
+}
+
+.container {
+    width: 470px;
+    text-align: justify;
+    margin: 0 auto;
+}
+
+.lifestyle {
+    text-transform: uppercase;
+    text-align: left;
+}
+
+img {
+    width: 100%;
+}

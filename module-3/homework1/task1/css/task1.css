@@ -1,0 +1,21 @@
+body {
+    font-family: playfair display, sans-serif;
+}
+
+.navigation {
+    display: inline-block;
+}
+
+nav {
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+li:hover {
+    color: #03a9f4;
+}
+
+li {
+    text-transform: uppercase;
+}

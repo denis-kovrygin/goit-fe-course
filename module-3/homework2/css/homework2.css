@@ -1,0 +1,95 @@
+.navigation {
+    display: inline-block;
+}
+
+nav {
+    max-width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+    margin-bottom: 75px;
+}
+
+a:hover {
+    color: #03a9f4;
+}
+
+li {
+    text-transform: uppercase;
+}
+
+li:not(:last-child) {
+    margin-right: 120px;
+}
+
+body {
+    font-family: playfair display, sans-serif;
+    max-width: 1200px;
+    margin: 24px auto;
+}
+
+.wraper {
+    width: 960px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.container1 {
+    width: 420px;
+    text-align: justify;
+    margin: 0 auto;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.container2 {
+    width: 420px;
+    text-align: justify;
+    margin: 0 auto;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+.lifestyle {
+    text-transform: uppercase;
+    text-align: left;
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
+
+img {
+    width: 100%;
+}
+
+.button {
+    background: transparent;
+    border-width: 1px;
+    border-color: #626262;
+    border-style: solid;
+    padding: 1rem 2rem;
+    height: 60px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.image {
+    margin-bottom: 30px;
+}
+
+.h2 {
+    margin-top: 0px;
+    margin-bottom: 45px;
+}
+
+.p {
+    margin-top: 0px;
+    margin-bottom: 80px;
+}
+
+.p2 {
+    margin-top: 0px;
+    margin-bottom: 30px;
+}
