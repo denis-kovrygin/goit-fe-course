@@ -1,23 +1,20 @@
-.navigation {
+.nav_item {
     display: inline-block;
+    text-transform: uppercase;
 }
 
-nav {
+.nav {
     max-width: 1200px;
     text-align: center;
     margin: 0 auto;
     margin-bottom: 75px;
 }
 
-a:hover {
+.nav_link:hover {
     color: #03a9f4;
 }
 
-li {
-    text-transform: uppercase;
-}
-
-li:not(:last-child) {
+.nav_item:not(:last-child) {
     margin-right: 120px;
 }
 
@@ -33,33 +30,23 @@ body {
     margin: 0 auto;
 }
 
-.container1 {
+.card {
     width: 420px;
     text-align: justify;
     margin: 0 auto;
     display: inline-block;
     box-sizing: border-box;
     padding: 30px;
+    vertical-align: top;
+    font-size: 0;
 }
 
-.container2 {
-    width: 420px;
-    text-align: justify;
-    margin: 0 auto;
-    display: inline-block;
-    box-sizing: border-box;
-    padding: 30px;
-}
-
-.lifestyle {
+.card-subtitle {
     text-transform: uppercase;
     text-align: left;
     margin-top: 0px;
     margin-bottom: 30px;
-}
-
-img {
-    width: 100%;
+    font-weight: normal;
 }
 
 .button {
@@ -71,26 +58,31 @@ img {
     height: 60px;
 }
 
-a {
+.nav_link {
     text-decoration: none;
     color: black;
 }
 
-.image {
+.card-image {
     margin-bottom: 30px;
+    width: 100%;
 }
 
-.h2 {
+.card-title {
     margin-top: 0px;
     margin-bottom: 45px;
 }
 
-.p {
+.card-description {
     margin-top: 0px;
     margin-bottom: 80px;
 }
 
-.p2 {
+.card-description2 {
     margin-top: 0px;
     margin-bottom: 30px;
+}
+
+.card * {
+    font-size: 16px;
 }
