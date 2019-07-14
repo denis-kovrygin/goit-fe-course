@@ -1,0 +1,19 @@
+.nav_item {
+    float: left;
+    text-transform: uppercase;
+    list-style-type: none;
+}
+
+.nav_item:not(:last-child) {
+    margin-right: 120px;
+}
+
+.nav {
+    max-width: 1200px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.nav_item:hover {
+    color: #f403d4;
+}
