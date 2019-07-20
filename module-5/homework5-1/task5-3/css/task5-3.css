@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.wrapper {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-image: linear-gradient(to bottom right,rgb(255, 255, 255) 0%,rgb(229, 68, 198) 50%,rgb(4, 118, 148) 100%);
+}
+
+.menu {
+    list-style: none;
+    padding: 10px;
+    border: 10px outset #f706c2;
+    font-size: 16px;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+.menu_item > a,
+.submenu_item > a {
+    display: inline-block;
+    padding: 15px 30px; 
+    color: #424242;
+    background-color: rgb(209, 176, 243);
+    text-decoration: none;
+} 
+
+.menu_item > a:hover,
+.submenu_item > a:hover {
+    background-color: rgb(151, 248, 132);
+    color: rgb(34, 10, 245);
+}
+
+.menu_item:hover > .submenu {
+    display: block;
+}
+
+.menu_item {
+    position: relative;
+    display: inline-block;
+}
+
+.submenu {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    list-style: none;
+    box-shadow: 0 7px 7px 7px rgba(0, 0, 0, 0.3);
+}
+
+.submenu_item {
+    white-space: nowrap;
+}
