@@ -9,7 +9,9 @@ html {
 
 body {
     color: #555252;
-    margin: 0;
+    margin: 0 auto;
+    height: 1455px;
+    width: 80%;
 }
 
 .clearfix::after {
@@ -198,7 +200,7 @@ body {
 }
 
 .products_container {
-    margin-bottom: 100px;
+    /* margin-bottom: 100px; */
     padding: 0;
 }
 /*-----------------------product-----------------*/
@@ -208,6 +210,7 @@ body {
     margin-right: 30px;
     float: left;
     position: relative;
+    margin-bottom: 100px;
 }
 
 .product:nth-child(4n) {
