@@ -10,8 +10,7 @@ html {
 body {
     color: #555252;
     margin: 0 auto;
-    height: 1455px;
-    width: 80%;
+    width: 
 }
 
 .clearfix::after {
@@ -19,9 +18,22 @@ body {
     content: "";
     clear: both;
 }
+
+.container-fluid {
+    width: 100%;
+}
+
+.fluidone {
+    background-color: #e9f0fd; 
+}
+
+.fluidtwo {
+    background-color: #323232;
+}
+
 /*---------WRAPPER------------------------------*/
 .wrapper {
-    width: 1110px;
+    /* width: 1110px; */
 }
 /*-----------logo---------------------------*/
 .logo {
@@ -75,7 +87,7 @@ body {
 .slider {
     max-height: 600px;
     position: relative;
-    width: 1110px;
+    /* width: 1110px; */
 }
 
 .slider_ctrl {
@@ -148,7 +160,7 @@ body {
     text-transform: uppercase;
     color: #ffffff;
     position: absolute;
-    left: 260px;
+    left: 190px;
     z-index: 1;
 }
 
@@ -171,7 +183,7 @@ body {
 .main_wrapper {
     text-align: center;
     background-color: #e9f0fd;
-    width: 1110px;
+    /* width: 1110px; */
 }
 
 .section_wrapper {
@@ -336,7 +348,7 @@ body {
     background-color: #323232;
     height: 90px;
     position: relative;
-    width: 1110px;
+    /* width: 1110px; */
 }
 
 .footer_text {
