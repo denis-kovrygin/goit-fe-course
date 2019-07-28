@@ -41,22 +41,9 @@ body {
 /*-----------logo---------------------------*/
 .logo {
   margin: 0;
-  /* width: 80px; */
   padding: 36px 0 36px 0;
   float: left;
-  /* font-weight: normal; */
 }
-
-/* .site_logo {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 22px;
-    color: #555252;
-} */
-
-/* .logo:first-letter {
-    color: #1abc9c;
-} */
 /*----------------nav_list----------------*/
 .nav_list {
   padding: 0;
@@ -90,7 +77,6 @@ body {
 .slider {
   min-height: 600px;
   position: relative;
-  /* width: 1110px; */
   margin: 0 auto;
 }
 
