@@ -20,10 +20,6 @@ body {
   clear: both;
 }
 
-.container-fluid {
-  width: 100%;
-}
-
 .fluidone {
   background-color: #e9f0fd;
 }
