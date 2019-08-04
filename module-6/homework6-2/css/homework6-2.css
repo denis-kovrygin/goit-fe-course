@@ -82,9 +82,10 @@ body {
 .main_wrapper {
     width: 1183px;
 }
-/*-------------section one---------------------*/
-.section {
+/*-------------section_one---------------------*/
+.section_one {
     width: 1183px;
+    margin-top: 83px;
 }
 
 /*---------------subtitle-------------*/
@@ -167,8 +168,10 @@ body {
     color: rgb(153, 153, 153);
     line-height: 1.6;
 }
-/*------------------section two---------------*/
-
+/*------------------section_two---------------*/
+.section_two {
+    width: 1183px;
+}
 /*-------------------subtitle---------------*/
 
 /*---------------------title-------------------*/
@@ -183,10 +186,11 @@ body {
     width: 980px;
     margin-left: 103px;
 }
-/*-------------------section three-----------------*/
-.three {
+/*-------------------section_three-----------------*/
+.section_three {
     display: flex;
     justify-content: space-between;
+    margin-top: 96px;
 }
 /*----------------team_members------------------*/
 /*-----------------team_member_cart---------------*/
