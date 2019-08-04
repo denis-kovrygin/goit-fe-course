@@ -56,7 +56,8 @@ body {
     text-transform: uppercase;
     color: #95e1d3;
     transition: color 200ms linear;
-    font-family: 'Montserrat Regular', Courier, monospace;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
 }
 
 .nav_link::after {
