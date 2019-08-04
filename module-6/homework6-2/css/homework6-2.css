@@ -1,0 +1,320 @@
+html{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0 auto;
+    width: 1200px;
+}
+/*-----------------WRAPPER------------------*/
+.wrapper {
+    height: 100px;
+    width: 1200px;
+    margin: 0;
+}
+/*--------------nav----------------------*/
+.nav {
+    display: flex;
+    justify-content: space-between;
+}
+/*-----------------logo-------------------*/
+.logo {
+    margin: 0;
+    padding: 36px 0 36px 0;
+    animation: logo-appear 2s linear;
+}
+
+@keyframes logo-appear {
+    0% {
+        transform: translateY(-200px);
+    }
+
+    50% {
+        transform: translateY(0);
+        transform: rotate(0);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+/*--------------nav_list-----------------*/
+.nav_list {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 490px;
+}
+
+.nav_link {
+    font-size: 14px;
+    line-height: 11px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #95e1d3;
+    transition: color 200ms linear;
+    font-family: 'Montserrat Regular', Courier, monospace;
+}
+
+.nav_link::after {
+    content: '';
+    margin: 0  auto;
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: #f38181;
+    transition: width 200ms linear;
+}
+
+.nav_link:hover {
+    color: #f38181;
+}
+
+.nav_link:hover::after {
+    width: 100%;
+}
+
+/*-------------MAIN_WRAPPER-------------*/
+.main_wrapper {
+    width: 1183px;
+}
+/*-------------section one---------------------*/
+.section {
+    width: 1183px;
+}
+
+/*---------------subtitle-------------*/
+.subtitle {
+    font-size: 24px;
+    font-family: 'Kaushan Script', cursive;
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+    text-align: center; 
+}
+/*---------------title----------------*/
+.title {
+    font-size: 30px;
+    font-family: "Montserrat";
+    color: rgb(51, 51, 51);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;  
+}
+
+.title::after {
+    content: '';
+    display: block;
+    margin: 0 auto;
+    width: 60px;
+    height: 3px;
+    background-color: #f38181;
+    margin-top: 30px;
+}
+/*---------------container-------------*/
+.container {
+    width: 1200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/*-------------subcontainer------------*/
+.subcontainer {
+    width: 381px;
+    height: 160px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 20px;
+}
+
+.subcontainer:nth-child(3n) {
+    margin-right: 0;
+}
+
+.one, .two, .three {
+    margin-bottom: 40px;
+}
+/*-------------subcontainer_image---------*/
+.subcontainer_image {
+    width: 106px;
+    display: flex;
+    justify-content: center;
+}
+/*----------subcontainer_icon-----------*/
+.subcontainer_icon {
+    width: 36px;
+    height: 36px;
+    margin-top: 10px;
+}
+/*-------------subcontainer_desk----------------*/
+
+/*---------------subcontainer_subtitle----------*/
+.subcontainer_subtitle {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(51, 51, 51);
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+/*---------------subcontainer_text--------------*/
+.subcontainer_text {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(153, 153, 153);
+    line-height: 1.6;
+}
+/*------------------section two---------------*/
+
+/*-------------------subtitle---------------*/
+
+/*---------------------title-------------------*/
+
+/*--------------------text---------------------*/
+.text {
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(153, 153, 153);
+    line-height: 1.6;
+    text-align: center;
+    width: 980px;
+    margin-left: 103px;
+}
+/*-------------------section three-----------------*/
+.three {
+    display: flex;
+    justify-content: space-between;
+}
+/*----------------team_members------------------*/
+
+/*----------------team_member_image_matthew-------------*/
+.team_member_image_matthew {
+    width: 381px;
+    height: 473px;
+    object-fit: cover;
+    object-position: 15%;
+    position: relative;
+    transition: transform 200ms linear, box-shadow 200ms linear;
+}
+
+.team_member_image_matthew:hover {
+    transform: translate(-10px,-10px);
+    box-shadow: 10px 10px #95e1d3;
+}
+
+.team_member_image_matthew:hover .overlay {
+    opacity: 0.9;
+    
+}
+/*----------------team_member_image_christopher----------*/
+.team_member_image_christopher {
+    width: 381px;
+    height: 473px;
+    object-fit: cover;
+    object-position: bottom;
+}
+/*-----------------team_member_image_michael-------------*/
+.team_member_image_michael {
+    width: 381px;
+    height: 473px;
+    object-fit: cover;
+}
+/*--------------team subcontainer_subtitle---------*/
+.team {
+    text-align: center;
+}
+/*-------------team_subcontainer_text-----------*/
+.team_subcontainer_text {
+    font-style: italic;
+    font-size: 15px;
+    font-family: 'Roboto', sans-serif;
+    color: rgb(153, 153, 153);
+    line-height: 1.6;
+    text-align: center;
+    margin-top: 0;
+}
+/*-------------------------overlay---------------*/
+.overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    width: 381px;
+    height: 473px;
+    background-image: linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
+    opacity: 0;
+}
+/*---------------overlay_icon----------------*/
+.overlay_icon {
+    width: 56px;
+    height: 56px;
+    margin-right: 1px;
+    background-color: #fce38a;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.overlay_icon:hover {
+    background-color: #95e1d3;
+}
+/*--------------------------line-------------------------------*/
+.line {
+    margin-top: 85px;
+    background-color: #999999;
+    border: 0;
+    height: 1px;
+}
+/*-------------------footer-------------------------------------*/
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 63px;
+}
+/*--------------------footer_text----------------------------*/
+.footer_text {
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+}
+/*------------------footer_link------------------------------*/
+.footer_link {
+    text-decoration: none;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    color: rgb(51, 51, 51);
+    line-height: 1.2;
+}
+
+.footer_link:hover {
+    color: #f8b8b8;
+}
+/*----------------------------input------------------------*/
+.form_email_text {
+    width: 220px;
+    height: 38px;
+    color: #999999;
+    padding: 0px;
+    font-family: 'Roboto', sans-serif;
+    padding-left: 10px;
+    font-style: italic;
+}
+
+.form_email_button {
+    padding: 0px;
+    margin: 0px;
+    margin: 5px 0 0 -5px;
+    width: 150px;
+    height: 42px;
+    border: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    font-size: 14px;
+    text-transform: uppercase;
+    color: white;
+    background-color: #95e1d3;
+}
