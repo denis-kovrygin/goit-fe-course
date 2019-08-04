@@ -191,6 +191,7 @@ body {
 /*----------------team_members------------------*/
 /*-----------------team_member_cart---------------*/
 .team_member_cart {
+    height: 473px;
     position: relative;
     transition: transform 200ms linear, box-shadow 200ms linear;
 }
