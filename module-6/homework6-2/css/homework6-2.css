@@ -189,25 +189,26 @@ body {
     justify-content: space-between;
 }
 /*----------------team_members------------------*/
+/*-----------------team_member_cart---------------*/
+.team_member_cart {
+    position: relative;
+    transition: transform 200ms linear, box-shadow 200ms linear;
+}
 
+.team_member_cart:hover {
+    transform: translate(-10px,-10px);
+    box-shadow: 10px 10px #95e1d3;
+}
+
+.team_member_cart:hover .overlay {
+    opacity: 0.9;
+}
 /*----------------team_member_image_matthew-------------*/
 .team_member_image_matthew {
     width: 381px;
     height: 473px;
     object-fit: cover;
     object-position: 15%;
-    position: relative;
-    transition: transform 200ms linear, box-shadow 200ms linear;
-}
-
-.team_member_image_matthew:hover {
-    transform: translate(-10px,-10px);
-    box-shadow: 10px 10px #95e1d3;
-}
-
-.f:hover .overlay {
-    opacity: 0.9;
-    
 }
 /*----------------team_member_image_christopher----------*/
 .team_member_image_christopher {
@@ -246,6 +247,7 @@ body {
     height: 473px;
     background-image: linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
     opacity: 0;
+    top: 0;
 }
 /*---------------overlay_icon----------------*/
 .overlay_icon {
