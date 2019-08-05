@@ -150,7 +150,6 @@ body {
     width: 36px;
     height: 36px;
     margin-top: 10px;
-    /* line-height: 1; */
 }
 /*-------------subcontainer_desk----------------*/
 
@@ -207,7 +206,7 @@ body {
 }
 
 .team_member_cart:hover .overlay {
-    opacity: 0.9;
+    opacity: 1;
 }
 /*---------------team_member_image-----------------*/
 .team_member_image {
@@ -247,7 +246,7 @@ body {
     position: absolute;
     width: 381px;
     height: 473px;
-    background-image: linear-gradient( 90deg, rgb(252,227,138) 0%, rgb(243,129,129) 100%);
+    background-image: linear-gradient( 90deg, rgba(252,227,138,0.9) 0%, rgba(243,129,129,0.9) 100%);
     opacity: 0;
     top: 0;
 }
