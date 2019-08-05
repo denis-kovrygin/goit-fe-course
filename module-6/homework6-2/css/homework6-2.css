@@ -150,6 +150,7 @@ body {
     width: 36px;
     height: 36px;
     margin-top: 10px;
+    /* line-height: 1; */
 }
 /*-------------subcontainer_desk----------------*/
 
@@ -159,7 +160,7 @@ body {
     font-family: 'Montserrat', sans-serif;
     color: rgb(51, 51, 51);
     text-transform: uppercase;
-    line-height: 1.2;
+    line-height: 1;
 }
 /*---------------subcontainer_text--------------*/
 .subcontainer_text {
@@ -208,26 +209,22 @@ body {
 .team_member_cart:hover .overlay {
     opacity: 0.9;
 }
-/*----------------team_member_image_matthew-------------*/
-.team_member_image_matthew {
+/*---------------team_member_image-----------------*/
+.team_member_image {
     width: 381px;
     height: 473px;
     object-fit: cover;
+}
+/*----------------team_member_image matthew-------------*/
+.matthew {
     object-position: 15%;
 }
-/*----------------team_member_image_christopher----------*/
-.team_member_image_christopher {
-    width: 381px;
-    height: 473px;
-    object-fit: cover;
+/*----------------team_member_image christopher----------*/
+.christopher {
     object-position: bottom;
 }
-/*-----------------team_member_image_michael-------------*/
-.team_member_image_michael {
-    width: 381px;
-    height: 473px;
-    object-fit: cover;
-}
+/*-----------------team_member_image michael-------------*/
+
 /*--------------team subcontainer_subtitle---------*/
 .team {
     text-align: center;
