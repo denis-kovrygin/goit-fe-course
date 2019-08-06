@@ -1,0 +1,29 @@
+.wrapper {
+    width: 900px;
+    text-align: center;
+    margin: auto;
+}
+
+.sheet {
+    border-collapse: separate;
+    font-size: 30px;
+    margin: auto;
+    font-family: 'Pacifico', cursive;
+    color: #bdc3c7;
+    background-image: linear-gradient(to right, #000046, #1CB5E0);
+}
+
+.description {
+    background-color: grey;
+    color: white;
+    padding: 20px;
+}
+
+.cell_element {
+    text-transform: uppercase;
+}
+
+tr, th, td {
+    border: 1px double red;
+    padding: 10px;
+}
