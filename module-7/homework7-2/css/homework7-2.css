@@ -199,6 +199,14 @@ html {
     padding-left: 20px;
     box-sizing: border-box;
 }
+
+.name:valid, .mail:valid, .message:valid {
+    outline: green;
+}
+
+.name:invalid, .mail:invalid, .message:invalid {
+    outline: red;
+}
 /*------------------------mail-----------------*/
 .mail {
     top: 84px;
