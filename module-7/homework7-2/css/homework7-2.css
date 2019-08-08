@@ -168,7 +168,7 @@ html {
 }
 /*------------------section_two--------------------*/
 .section_two {
-    background-image: url('/img/map_image.png');
+    background-image: url("../img/map_image.png");
     height: 676px;
     background-size: cover;
     background-position: center;
