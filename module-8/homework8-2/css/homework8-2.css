@@ -12,7 +12,6 @@
 
 .container {
   min-width: 320px;
-  padding: 0 5px 0 5px;
   margin-bottom: 20px;
 }
 
@@ -104,7 +103,7 @@
 }
 
 .advert_button {
-   background-color: #ff4e50;
+  background-color: #ff4e50;
   border: transparent;
   border-radius: 25px 25px 25px 25px;
   font-family: "Montserrat", sans-serif;
@@ -134,7 +133,7 @@
 }
 
 .partner_card {
-  max-width:312px;
+  max-width:230px;
   margin: 0 auto;
   list-style: none;
   position: relative;
@@ -150,7 +149,7 @@
   display: block;
   position: absolute;
   right: 31%;
-  top: 37%;
+  top: 100px;
   width: 33px;
   height: 33px;
   border: 3px solid #ffffff;
@@ -190,6 +189,7 @@
   font-family: "Montserrat", sans-serif;
   font-weight: 700;
   font-size: 14px;
+  margin-top: 10px;
 }
 
 .partner_info {
