@@ -286,7 +286,7 @@
   display: -ms-flexbox;
   display: flex;
   -ms-flex-pack: distribute;
-      justify-content: space-around;
+  justify-content: space-around;
 }
 
 .section-team__info {
@@ -338,11 +338,6 @@
        -o-transition-duration: 0.2s;
           transition-duration: 0.2s;
   transition: transform 200ms linear, box-shadow 200ms linear;
-}
-
-.section-team__but-coll:hover {
-  transform: translate(-10px,-10px);
-  box-shadow: 10px 10px #95e1d3;
 }
 
 .section-team__but-coll:hover .soc_batton {
@@ -411,6 +406,8 @@
           transform: translate(-10px, -10px);
   -webkit-box-shadow: 10px 10px 0px 0px #95e1d3;
           box-shadow: 10px 10px 0px 0px #95e1d3;
+  transform: translate(-10px,-10px);
+  box-shadow: 10px 10px #95e1d3;
 }
 
 .team__icon--hover:hover {
