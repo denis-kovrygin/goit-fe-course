@@ -44,7 +44,7 @@
     "stylelint": "^9.2.0"
   },
   "dependencies": {
-    "node-sass": "^4.9.3"
+    "node-sass": "^7.0.0"
   },
   "description": ""
 }
